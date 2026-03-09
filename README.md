@@ -248,9 +248,15 @@ Invoke-WebRequest -UseBasicParsing "http://localhost:35000/greeting?name=Tomas" 
 ## 10. Evidencia para la entrega
 
 - Captura de la compilación exitosa con `./mvnw.cmd package`.
+    - ![alt text](src/main/resources/static/images/1.jpg) 
+      
 - Captura de la consola mostrando el arranque del servidor.
+    - ![alt text](src/main/resources/static/images/2.jpg)
 - Captura del navegador abriendo `http://localhost:35000/index.html`.
+    - ![alt text](src/main/resources/static/images/3.jpg)
 - Captura de la URL `http://localhost:35000/greeting?name=TuNombre`.
-- Enlace al repositorio en GitHub.
+    - ![alt text](src/main/resources/static/images/4.jpg)
+    - ![alt text](src/main/resources/static/images/5.jpg)
+    - ![alt text](src/main/resources/static/images/6.jpg) 
 - Evidencia del despliegue en AWS y acceso correcto a la aplicación.
 
