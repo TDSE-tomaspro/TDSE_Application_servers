@@ -184,7 +184,7 @@ Obtains a parameter from the URL. It may have a default value.
 ```java
 @GetMapping("/greeting")
 public String greeting(@RequestParam(value = "name", defaultValue = "World") String name) {
-	return "Hello " + name;
+	return "Hola " + name;
 }
 ```
 
@@ -249,21 +249,21 @@ Invoke-WebRequest -UseBasicParsing "http://localhost:35000/greeting?name=Tomas" 
 ## 10. Delivery Evidence
 
 - Screenshot of the successful build with `./mvnw.cmd package`.
-	- ![alt text](src/images/1.jpg)
+  - ![Build screenshot](src/images/1.jpg)
 
 - Screenshot of the console showing server startup.
-	- ![alt text](src/images/2.jpg)
+  - ![Server startup screenshot](src/images/2.jpg)
 - Screenshot of the browser opening `http://localhost:35000/index.html`.
-	- ![alt text](src/images/3.jpg)
+  - ![Browser index screenshot](src/images/3.jpg)
 - Screenshot of the URL `http://localhost:35000/greeting?name=YourName`.
-	- ![alt text](src/images/4.jpg)
-	- ![alt text](src/images/5.jpg)
-	- ![alt text](src/images/6.jpg)
+  - ![Greeting screenshot 1](src/images/4.jpg)
+  - ![Greeting screenshot 2](src/images/5.jpg)
+  - ![Greeting screenshot 3](src/images/6.jpg)
 - Evidence of deployment on AWS and successful application access.
-	- ![alt text](src/images/7.jpg)
-	- ![alt text](src/images/8.jpg)
-	- ![alt text](src/images/9.jpg)
-	- ![alt text](src/images/10.jpg)
+  - ![AWS screenshot 1](src/images/7.jpg)
+  - ![AWS screenshot 2](src/images/8.jpg)
+  - ![AWS screenshot 3](src/images/9.jpg)
+  - ![AWS screenshot 4](src/images/10.jpg)
 
 ## 11. Conclusions
 
